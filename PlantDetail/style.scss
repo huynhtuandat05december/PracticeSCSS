@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: sans-serif;
+}
+.plant-detail {
+    width: 80rem;
+    min-height: 60rem;
+    background-color: rgb(123, 200, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    &-container {
+        background-color: white;
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+        &-header {
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgb(216, 203, 203);
+            &__back {
+                color: #999;
+                text-decoration: none;
+                text-transform: uppercase;
+                span {
+                    margin-left: 1.5rem;
+                }
+            }
+            &__like {
+                color: #999;
+                font-size: 2rem;
+            }
+        }
+        &-content {
+            display: flex;
+            div {
+                padding: 4rem;
+            }
+            &__img {
+                width: 40%;
+            }
+            &-info {
+                width: 60%;
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.plant-detail {
+  width: 80rem;
+  min-height: 60rem;
+  background-color: #7bc87b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+}
+
+.plant-detail-container {
+  background-color: white;
+  -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.plant-detail-container-header {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #d8cbcb;
+}
+
+.plant-detail-container-header__back {
+  color: #999;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.plant-detail-container-header__back span {
+  margin-left: 1.5rem;
+}
+
+.plant-detail-container-header__like {
+  color: #999;
+  font-size: 2rem;
+}
+
+.plant-detail-container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.plant-detail-container-content div {
+  padding: 4rem;
+}
+
+.plant-detail-container-content__img {
+  width: 40%;
+}
+
+.plant-detail-container-content-info {
+  width: 60%;
+}
+/*# sourceMappingURL=style.css.map */
