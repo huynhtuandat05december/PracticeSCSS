@@ -15,6 +15,7 @@ body {
     &-container {
         background-color: white;
         box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
         &-header {
             padding: 2rem;
             display: flex;
@@ -36,7 +37,7 @@ body {
         }
         &-content {
             display: flex;
-            div {
+            > div {
                 padding: 4rem;
             }
             &__img {
@@ -44,6 +45,41 @@ body {
             }
             &-info {
                 width: 60%;
+                border: 1px solid rgb(216, 203, 203);
+                border-top: none;
+                &__title {
+                    text-transform: uppercase;
+                    color: black;
+                    font-size: 2rem;
+                    margin-bottom: 0.5rem;
+                }
+                &__category {
+                    text-transform: uppercase;
+                    color: #999;
+                    margin-bottom: 2rem;
+                }
+                &__price {
+                    color: black;
+                    font-size: 2rem;
+                    display: block;
+                    margin-bottom: 2rem;
+                }
+                &__desc {
+                    color: #999;
+                    font-size: 1.2rem;
+                    line-height: 1.6;
+                    margin-bottom: 2rem;
+                }
+                &__button {
+                    outline: none;
+                    color: #999;
+                    text-transform: uppercase;
+                    border-radius: 5px solid currentColor;
+                    padding: 1rem 3rem;
+                    min-width: 15rem;
+                    font-size: 1.4rem;
+                    cursor: pointer;
+                }
             }
         }
     }
