@@ -4,6 +4,15 @@ html {
 
 body {
   font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .plant-detail {
@@ -14,18 +23,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5rem;
 }
 
 .plant-detail-container {
   background-color: white;
   -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
 }
 
@@ -35,11 +44,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #d8cbcb;
 }
 
